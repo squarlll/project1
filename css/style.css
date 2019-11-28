@@ -1,4 +1,69 @@
-/*TRAVLER*/
+@font-face {
+	font-family: "Arial MT";
+	src: url('../fonts/ArialMT.eot');
+	src: url('../fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/ArialMT.woff') format('woff'),
+	url('../fonts/ArialMT.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Merriweather - Heavy Italic";
+	src: url('../fonts/Merriweather-BlackItalic.eot');
+	src: url('../fonts/Merriweather-BlackItalic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Merriweather-BlackItalic.woff') format('woff'),
+	url('../fonts/Merriweather-BlackItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans - Bold";
+	src: url('../fonts/OpenSans-Bold.eot');
+	src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans-Bold.woff') format('woff'),
+	url('../fonts/OpenSans-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans - Extrabold";
+	src: url('../fonts/OpenSans-ExtraBold.eot');
+	src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+	url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans - Light";
+	src: url('../fonts/OpenSans-Light.eot');
+	src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans-Light.woff') format('woff'),
+	url('../fonts/OpenSans-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans - Regular";
+	src: url('../fonts/OpenSans-Regular.eot');
+	src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans-Regular.woff') format('woff'),
+	url('../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans - Semibold";
+	src: url('../fonts/OpenSans-SemiBold.eot');
+	src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+	url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.d{
+	font-family: "Open Sans - Bold";
+}
 ::-webkit-scrollbar{
 	width:5px;
 }
