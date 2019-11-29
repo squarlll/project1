@@ -351,6 +351,7 @@ a:hover .logo{
 }
 .block-5__item-active{
 	background: #fff;
+	box-shadow: 0 0 62px rgba(0, 0, 0, 0.1);
 }
 .block-5__popularity,.block-5__popularity1 {
 	font-size: 11px;
