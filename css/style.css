@@ -104,6 +104,8 @@ header{
 }
 .logo{
 	margin-top: 56px;
+	position: relative;
+	z-index: 1111;
 }
 .logo__name{
 	font-family: "Merriweather - Heavy Italic";
@@ -119,19 +121,35 @@ header{
 	letter-spacing: -0.24px;
 	margin-left: 10px;
 }
-a:hover .logo{
+.logo a{
+	font-family: "Merriweather - Heavy Italic";
+	font-size: 21px;
+	color: #ffffff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	letter-spacing: -0.24px;
+	margin-left: 10px;
+}
+.logo a:hover{
 	text-decoration: none;
+	color: #fff;
 }
 .header__txt {
     position: absolute;
     top: 0;
+    z-index: 1;
     display: flex;
     align-items: center;
     height: 100%;
 }
 /*Block-2*/
 .block-2{
-	margin-top: 113px;
+	padding-top: 113px;
 }
 /*block-text*/
 .block-2__block-text{
@@ -180,11 +198,37 @@ a:hover .logo{
 	flex-wrap: wrap;
 }
 
-.property__item{
+.property__item,
+.property__item1,
+.property__item3,
+.property__item5,
+.property__item6{
 	width: 400px;
 	height: 278px;
 }
-
+.property__item{
+	background: #f5989d;
+}
+.property__item1{
+	background: #615f7d;
+}
+.property__item2 {
+	width: 400px;
+	height: 278px;
+	background: url('../img/Layer_6.png');
+}
+.property__item3 {
+	background: #bd8cbf;
+}
+.property__item4 {
+	background: url('../img/Layer_5.png')
+}
+.property__item5 {
+	background: #82ca9c;
+}
+.property__item6 {
+	background: url('../img/Layer_14.png')
+}
 .item__big{
 	width: 800px;
 	height: 278px;
@@ -436,14 +480,13 @@ a:hover .logo{
 .block-3{
 	width: 100%;
 	height: 874px;
-	margin-top: 160px;	
+	background: url(../img/Full_Image.png) no-repeat center;
+	background-size: cover;
 }
-
 .block-3__content{
 	margin-top: 400px;
 	margin-left: 25%;
 }
-
 .block-3__title{
 	margin-bottom: 30px;
 	color: #fff;
@@ -451,7 +494,6 @@ a:hover .logo{
 	font-size: 60px;
 	font-weight: 300;
 }
-
 .block-3__text{
 	margin-bottom: 20px;
 	max-width: 475px;
@@ -461,7 +503,6 @@ a:hover .logo{
 	font-weight: 400;
 	line-height: 24px;
 }
-
 .see-options__text{
 	display: inline-block;
 	color: #fff;
@@ -488,8 +529,7 @@ a:hover .logo{
 
 /*Footer*/
 .footer{
-	margin-top: 145px;
-	padding: 130px 0;
+	padding: 130px 0 157px 0;
 	background: #192431;
 	color: #fff;
 }
