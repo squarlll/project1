@@ -1,3 +1,144 @@
-.d{
-	font-size: 40px!important;
+
+@media screen and (max-width:992px){
+	.txt-big,.img-txt__subtitle {
+		font-size: 50px;
+	}
+}
+@media screen and (max-width:768px){
+	.txt-big,.img-txt__subtitle {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width:576px){
+	.txt-big.img-txt__subtitle {
+		font-size: 33px;
+	}
+}
+@media(max-width: 2270px){
+	.block-2__content__title-2{
+		margin-left: 20%;
+	}
+}
+@media(max-width: 2000px){
+	.block-2__content__title-2{
+		margin-left: 10%;
+	}
+}
+@media(max-width: 1550px){
+	.block-2__content__title-2{
+		margin-left: 4%;
+	}
+}
+@media(max-width: 1290px){
+	.block-2__content__title-2{
+		margin-left: 20%;
+	}
+	.block-text__col-3{
+		margin-left: 20%;
+	}
+	.block-text__item-2{
+		margin-bottom: 20px;
+		margin-right: 20%;
+	}
+}
+@media(max-width: 1110px){
+	.block-text__col-3{
+		margin-left: 10%;
+	}
+	.block-text__item-2{
+		margin-bottom: 20px;
+		margin-right: 10%;
+	}
+}
+@media(max-width: 860px){
+	.block-2__content__title-2{
+		margin-left: 10%;
+	}
+}
+@media(max-width: 736px){
+	.block-text__col-3{
+		margin-left: 5%;
+	}
+}
+@media(max-width: 695px){
+	.block-2__content__title-2{
+		margin-left: 20%;
+	}
+	.block-text__col-3{
+		margin-left: 6%;
+	}
+}
+@media(max-width: 480px){
+	.block-2__content__title-2{
+		margin-left: 6%;
+	}
+	.block-text__col-3{
+		margin-left: 0%;
+	}
+}
+@media(max-width: 340px){
+	.block-2__content__title-2{
+		font-size: 30px;
+	}
+}
+
+@media(max-width: 1220px){
+	.block-text__col-2{
+		margin-left: 0px;
+		margin-top: -140px;
+	}
+}
+@media(max-width: 640px){
+	.block-text__col-2{
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+}
+@media(max-width: 400px){
+	.block-2__content__title{
+		font-size: 26px;
+	}
+}
+
+@media(max-width: 1610px){
+	.property__row-1{
+		justify-content: flex-start;
+		margin-left: 10%;
+		margin-right: 20%;
+	}
+}
+@media(max-width: 1280px){
+	.property__row-1{
+		margin-left: 20%;
+		margin-right: 5%;
+	}
+}
+@media(max-width: 1066px){
+	.property__row-1{
+		margin-left: 20%;
+		margin-right: 0%;
+	}
+}
+@media(max-width: 1010px){
+	.property__row-1{
+		margin-left: 10%;
+		margin-right: 0%;
+	}
+}
+@media(max-width: 890px){
+	.property__row-1{
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+}
+@media(max-width: 800px){
+	.property__row-1{
+		justify-content: center;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.item__big{
+		width: 400px;
+		height: 278px;
+	}
 }
