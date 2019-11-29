@@ -488,26 +488,22 @@ a:hover .logo{
 
 /*Footer*/
 .footer{
-	margin-top: 145px;
 	padding: 130px 0;
 	background: #192431;
 	color: #fff;
 }
 
-.footer__content{
+.ooter__content{
 	padding-left: 500px;
 }
-
 .footer__row-1{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-
 .footer__row-1__item{
 	margin-right: 135px;
 }
-
 .footer__item__title{
 	margin-bottom: 20px;
 	color: #f6f7fa;
