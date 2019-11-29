@@ -560,8 +560,7 @@ a:hover .logo{
 }
 
 .footer__btn i:hover{
-	transform: scale(1.6);
-
+	transform: scale(1.4);
 }
 
 .footer__item__subtext{
@@ -572,16 +571,13 @@ a:hover .logo{
 	font-weight: 400;
 	line-height: 18px;
 }
-
 .footer__row-2{
 	display: flex;
 	flex-direction: row;
 }
-
 .footer__row-2__item{
 	margin-right: 97px;
 }
-
 .footer__item-2__title{
 	margin-bottom: 25px;
 	color: #f6f7fa;
@@ -590,11 +586,6 @@ a:hover .logo{
 	font-weight: 400;
 	line-height: 24px;
 }
-
-.footer__item-2__block-text{
-
-}
-
 .footer__item-2__block-text__item{
 	margin-bottom: 5px;
 	color: #f6f7fa;
