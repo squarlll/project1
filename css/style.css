@@ -70,23 +70,26 @@
 	width:5px;
 }
 ::-webkit-scrollbar-track{
-	background: #2d2d2d;
-
+	background: #192431;
 }
 ::-webkit-scrollbar-thumb{
-	background: #0f0f0f;
-	border-radius:50px;
-	border:.5px solid #313030;
+	background: #43648a;
+	border-radius:100px;
+	border:1px solid #192431;
 }
 ::selection {
-	background: #468094;
+	background: #293d54;
 }
 ::-moz-selection {
-	background: #468094;
+	background: #293d54;
 }
 /** STYLES **/
 *::focus{
 	outline: none;
+}
+.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
 }
 header{
 	height: 100vh;
@@ -111,7 +114,7 @@ header{
 	z-index: 1111;
 }
 .logo__name{
-	font-family: "Merriweather - Heavy Italic";
+	font-family: "Merriweather - Heavy Italic", sans-serif;
 	font-size: 21px;
 	color: #ffffff;
 	display: -webkit-flex;
@@ -125,7 +128,7 @@ header{
 	margin-left: 10px;
 }
 .logo a{
-	font-family: "Merriweather - Heavy Italic";
+	font-family: "Merriweather - Heavy Italic", sans-serif;
 	font-size: 21px;
 	color: #ffffff;
 	display: -webkit-flex;
@@ -145,7 +148,7 @@ header{
 .header__txt {
     position: absolute;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: center;
     height: 100%;
@@ -192,7 +195,7 @@ header{
 
 .block-text__item{
 	color: #959595;
-	font-family: "Open Sans - Regular",sans-serif;
+	font-family: "Open Sans - Regular", sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
@@ -201,7 +204,7 @@ header{
 .block-2__content__title{
 	margin-bottom: 30px;
 	color: #222626;
-	font-family: "Open Sans - Light",sans-serif;
+	font-family: "Open Sans - Light", sans-serif;
 	font-size: 35px;
 	font-weight: 300;
 	line-height: 24px;
@@ -244,14 +247,14 @@ header{
 	padding: 45px 48px 24px 43px;
 	width: 400px;
 	height: 278px;
-	background: url('../img/Layer_6.png') center;
+	background: url('../img/Layer_6.png') no-repeat center / cover;
 }
 .property__item3 {
 	background: #bd8cbf;
 	padding: 45px 48px 59px 43px;
 }
 .property__item4 {
-	background: url('../img/Layer_5.png') center;
+	background: url('../img/Layer_5.png') no-repeat center / cover;
 	padding: 45px 48px 59px 43px;
 }
 .property__item5 {
@@ -259,7 +262,7 @@ header{
 	padding: 45px 48px 59px 43px;
 }
 .property__item6 {
-	background: url('../img/Layer_14.png');
+	background: url('../img/Layer_14.png') no-repeat center / cover;
 	padding: 45px 48px 59px 43px;
 }
 .item__big{
@@ -269,14 +272,14 @@ header{
 .property__title{
 	padding-bottom: 24px;
 	color: #ffffff;
-	font-family: "Open Sans - Light",sans-serif;
+	font-family: "Open Sans - Light", sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 }
 .property__text{
 	padding-bottom: 35px;
 	color: #ffffff;
-	font-family: "Open Sans - Regular",sans-serif;
+	font-family: "Open Sans - Regular", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 24px;
@@ -284,7 +287,7 @@ header{
 .property__text1{
 	padding-bottom: 84px;
 	color: #ffffff;
-	font-family: "Open Sans - Regular",sans-serif;
+	font-family: "Open Sans - Regular", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 24px;
@@ -299,7 +302,7 @@ header{
 	display: inline-block;
 	padding-right:15px;
 	color: #ffffff;
-	font-family: "Open Sans - Bold";
+	font-family: "Open Sans - Bold", sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 24px;
@@ -335,25 +338,22 @@ header{
 }
 
 .block-text__col-3{
-	margin-left: 20px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	text-align: justify;
 }
-
 .block-2__content__title-2{
-	margin-bottom: 30px;
-	margin-left: 25%;
+	padding-bottom: 30px;
 	color: #222626;
-	font-family: "Open Sans - Light" sans-serif;
+	font-family: "Open Sans - Light", sans-serif;
 	font-size: 35px;
 	line-height: 24px;
 }
 
 .block-text__item-2{
-	min-width: 264px;
-	max-width: 264px;
-	padding: 0 19px 0 0;
+	width: 264px;
+	padding: 0 19px 0 20px;
 	color: #959595;
 	font-family: "Open Sans - Regular" sans-serif;
 	font-size: 14px;
@@ -373,12 +373,12 @@ header{
 	max-width: 438px
 }
 .txt-big,.img-txt__subtitle{
-	font-family: "Open Sans - Light";
+	font-family: "Open Sans - Light", sans-serif;
 	color: #ffffff;
 	font-size: 60px;
 }
 .txt-little{
-	font-family: "Open Sans - Light";
+	font-family: "Open Sans - Light", sans-serif;
 	color: #ffffff;
 	font-size: 13px;
 	line-height: 24px;
@@ -391,7 +391,7 @@ header{
 	padding-bottom: 165px;
 }
 .txt-title{
-	font-family: "Open Sans - Light";
+	font-family: "Open Sans - Light", sans-serif;
 	color: #ffffff;
 	font-size: 35px;
 	line-height: 33px;
@@ -399,13 +399,13 @@ header{
 }
 .property-title{
 	color: #ffffff;
-	font-family: "Open Sans - Semibold";
+	font-family: "Open Sans - Semibold", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	padding-bottom: 20px;
 }
 .property-subtitle,.img-txt__subtitle{
-	font-family: "Open Sans - Light";
+	font-family: "Open Sans - Light", sans-serif;
 	color: #fff;
 	font-size: 14px;
 	line-height: 24px;
@@ -434,7 +434,7 @@ header{
 }
 .block-5__popularity,.block-5__popularity1 {
 	font-size: 11px;
-	font-family: "Open Sans - Bold";
+	font-family: "Open Sans - Bold", sans-serif;
 	border-radius: 5px;
 	text-transform: uppercase;
 	color: #fff;
@@ -451,7 +451,7 @@ header{
 }
 .block-5__title {
 	color: #2e3b4e;
-	font-family: "Open Sans - Light";
+	font-family: "Open Sans - Light", sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 30px;
@@ -459,7 +459,7 @@ header{
 }
 .block-5__text,.block-5__text1 {
 	color: #8297a7;
-	font-family: "Open Sans - Light";
+	font-family: "Open Sans - Light", sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 25.03px;
@@ -474,7 +474,7 @@ header{
 	border-radius: 3px;
 	background: #82ca9c;
 	color: #fff;
-	font-family: "Open Sans - Bold";
+	font-family: "Open Sans - Bold", sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	letter-spacing: 1.3px;
@@ -525,7 +525,7 @@ header{
 .block-3__title{
 	margin-bottom: 30px;
 	color: #fff;
-	font-family: "Open Sans - Light",sans-serif;
+	font-family: "Open Sans - Light", sans-serif;
 	font-size: 60px;
 	font-weight: 300;
 }
@@ -533,7 +533,7 @@ header{
 	margin-bottom: 20px;
 	max-width: 475px;
 	color: #fff;
-	font-family: "Open Sans - Regular",sans-serif;
+	font-family: "Open Sans - Regular", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 24px;
@@ -541,7 +541,7 @@ header{
 .see-options__text{
 	display: inline-block;
 	color: #fff;
-	font-family: "Open Sans - Bold";
+	font-family: "Open Sans - Bold", sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 24px;
@@ -586,7 +586,7 @@ header{
 .footer__item__title{
 	margin-bottom: 20px;
 	color: #f6f7fa;
-	font-family: "Open Sans - Semibold";
+	font-family: "Open Sans - Semibold", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 24px;
@@ -595,7 +595,7 @@ header{
 .footer__item__text{
 	max-width: 566px;
 	color: #f6f7fa;
-	font-family: "Open Sans - Regular",sans-serif;
+	font-family: "Open Sans - Regular", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 24px;
@@ -611,7 +611,7 @@ header{
 	width: 400px;
 	height: 58px;
 	border: 0px;
-	border-radius: 5px;
+	border-radius: 3px;
 	outline: none;
 }
 
@@ -660,21 +660,19 @@ header{
 .footer__item-2__title{
 	margin-bottom: 25px;
 	color: #f6f7fa;
-	font-family: "Open Sans - Semibold";
+	font-family: "Open Sans - Semibold", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 24px;
 }
-
-.footer__item-2__block-text{
-
-}
-
 .footer__item-2__block-text__item{
 	margin-bottom: 5px;
 	color: #f6f7fa;
-	font-family: "Open Sans - Regular",sans-serif;
+	font-family: "Open Sans - Regular", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 24px;
+}
+.block-2__content .container{
+	padding: 0;
 }
