@@ -68,6 +68,7 @@
 /** SCROLL **/
 ::-webkit-scrollbar{
 	width:5px;
+	height: 0;
 }
 ::-webkit-scrollbar-track{
 	background: #192431;
@@ -182,7 +183,6 @@ header{
 	position: relative;
 	z-index: 1111;
 }
-
 .block-text__col-1{
 	padding-right: 15px;
 	max-width: 569px;
@@ -675,4 +675,7 @@ header{
 }
 .block-2__content .container{
 	padding: 0;
+}
+.wow {
+visibility: hidden;
 }
